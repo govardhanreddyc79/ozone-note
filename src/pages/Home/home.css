@@ -1,0 +1,33 @@
+.homepage-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 69vh;
+    padding: 2rem;
+
+}
+.hp-description {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+}
+.hp-description-heading{
+    font-size: 3rem;
+}
+.hp-description-content{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hp-image{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.join-btn {
+    border: 0;
+    width: 12rem;
+    color: var(--white-clr);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
